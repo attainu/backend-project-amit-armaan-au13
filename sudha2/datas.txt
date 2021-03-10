@@ -1,0 +1,31 @@
+add items:
+
+{
+      "pid": "4",
+      "pname": "Sweets",
+      "amount": 250,
+      "available": 10,
+      "tested": "OK"
+    }
+
+    admin register:
+    {
+    "email":"amit13armaan@gmail.com",
+    "name":"Amit Armaan",
+    "password":"123456789",
+    "phone":9113706250
+}
+user register:
+{
+    "milk": [],
+    "cattleFeed": [],
+    "_id": "6049185f539cfadfe540a329",
+    "name": "Sumit Armaan",
+    "email": "sumit13armaan@gmail.com",
+    "password": "$2a$08$Cuz/CrFwIQes.bctuPHJsOBzc.4GKGKEjimfU2NZ9b/VSZV/O9Vli",
+    "phone": 999999999,
+    "profile": "req.body.profile",
+    "role": "User",
+    "status": "Active",
+    "dues": 3000,
+}
