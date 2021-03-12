@@ -1,12 +1,12 @@
 var mongoose = require("mongoose");
-const uri =
-  "mongodb+srv://armaan:jaya@1996@cluster0.oesty.mongodb.net/SUDHA?retryWrites=true&w=majority";
-// connecting through my database named "SUDHA"
-console.log("try to connect")
+const url =
+  "mongodb://armaan:jaya%401996@cluster0-shard-00-00.oesty.mongodb.net:27017,cluster0-shard-00-01.oesty.mongodb.net:27017,cluster0-shard-00-02.oesty.mongodb.net:27017/SUDHA?ssl=true&replicaSet=atlas-sbatld-shard-0&authSource=admin&retryWrites=true&w=majority";
+
 mongoose
-  .connect(uri, {
+  .connect(url, {
     useUnifiedTopology: true,
     useNewUrlParser: true,
+    useCreateIndex: true
   })
   .then((res) => {
     console.log("mongoAtlas connected");
